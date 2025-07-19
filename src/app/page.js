@@ -10,6 +10,7 @@ import Evolving from "../Components/Evolving";
 import WhatYouNeed from "../Components/WhatYouNeed";
 import QuickAnswer from "../Components/QuickAnswer";
 import Footer from "../Components/Footer";
+import Personal from "../Components/Personal";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Reimagined />
       <Evolving />
       <WhatYouNeed />
+      <Personal />
       <QuickAnswer />
       <Footer />
     </main>
