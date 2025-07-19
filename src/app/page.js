@@ -11,6 +11,7 @@ import WhatYouNeed from "../Components/WhatYouNeed";
 import QuickAnswer from "../Components/QuickAnswer";
 import Footer from "../Components/Footer";
 import Personal from "../Components/Personal";
+import BackedData from "../Components/BackedData";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <WhatYouNeed />
       <Personal />
       <QuickAnswer />
+      <BackedData />
       <Footer />
     </main>
   );

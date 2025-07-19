@@ -15,11 +15,11 @@ const Footer = () => {
           </div>
 
           <div className="lg:col-span-5">
-            <h3 className="text-xl font-semibold mb-2 text-gray-500">Be the first to know</h3>
-            <p className="text-gray-400 text-base mb-6">
+            <h3 className="text-xl font-semibold  text-gray-500">Be the first to know</h3>
+            <p className="text-gray-400 text-base">
               We'll send you only what matters — no noise, no spam.
             </p>
-            <form  className="flex gap-3">
+            <form  className="flex gap-3 mt-2">
               <input
                 type="email"
                 value={email}
@@ -30,7 +30,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="px-3 md:px-8 py-3 bg-gray-800 hover:bg-gray-700 border border-gray-600 rounded-full transition-colors duration-200 text-white font-medium"
+                className="p-3 bg-gray-800 hover:bg-gray-700 border border-gray-600 rounded-full transition-colors duration-200 text-white font-medium"
               >
                 Ok
               </button>
