@@ -18,6 +18,11 @@
     --foreground: #ededed;
   }
 }
+@layer utilities {
+  .slow-spin {
+    animation: spin 3s linear infinite; /* 👈 slower than default 1s */
+  }
+}
 
 body {
   background: var(--background);
